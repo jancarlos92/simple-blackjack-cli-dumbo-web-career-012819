@@ -44,8 +44,7 @@ def initial_round
 
  
 def hit?(num)
-  card_total = num + deal_card  
-  num >= 0 
+   num >= 0 
   if num < 21 
     prompt_user
     get_user_input
